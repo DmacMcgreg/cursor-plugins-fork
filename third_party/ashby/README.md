@@ -10,7 +10,7 @@ Search candidates and jobs, prepare for interviews, review pipeline status and p
 2. Search for **Ashby**.
 3. Click **Install**, then complete the Ashby sign-in prompt.
 
-Or run `/add-plugin ashby` in chat.
+Or run `/plugin install ashby@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -10,7 +10,7 @@ Brainstorm domain names, check availability and pricing in bulk, and get registr
 2. Search for **GoDaddy**.
 3. Click **Install**. There is no sign-in step.
 
-Or run `/add-plugin godaddy` in chat.
+Or run `/plugin install godaddy@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

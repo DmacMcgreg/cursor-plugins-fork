@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "smartsheet": {
+      "type": "http",
+      "url": "https://mcp.smartsheet.com",
+      "headers": {
+        "Authorization": "Bearer ${user_config.smartsheet_api_token}"
+      }
+    }
+  }
+}

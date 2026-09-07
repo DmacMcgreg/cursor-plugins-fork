@@ -40,5 +40,5 @@ For pre-completion: what you verified and how, and what you did not verify.>
 
 ## Full transcript
 
-<`transcript_path` from `.cursor/advisor/state.json` when advisor mode is on in this conversation; otherwise "not available">
+<`transcript_path` from `.zcode/advisor/state.json` when advisor mode is on in this conversation; otherwise "not available">
 ```

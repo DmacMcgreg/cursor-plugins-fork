@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# afterAgentResponse hook for Ralph Loop.
-# Checks if the agent's response contains a matching completion promise.
+# Stop hook for Ralph Loop (runs before stop-hook.sh).
+# Checks if the agent's final message contains a matching completion promise.
 # If found, writes a done flag so the stop hook knows to end the loop.
 #
-# Input:  { "text": "<assistant response text>" }
+# Input:  { "last_assistant_message": "<text>", ...common }
 # Output: none (fire-and-forget)
 
 set -euo pipefail
 
 HOOK_INPUT=$(cat)
 
-PROJECT_DIR="${CURSOR_PROJECT_DIR:-.}"
-STATE_FILE="$PROJECT_DIR/.cursor/ralph/scratchpad.md"
-DONE_FLAG="$PROJECT_DIR/.cursor/ralph/done"
+PROJECT_DIR="$(jq -r '.cwd // "."' <<< "$HOOK_INPUT")"
+STATE_FILE="$PROJECT_DIR/.zcode/ralph/scratchpad.md"
+DONE_FLAG="$PROJECT_DIR/.zcode/ralph/done"
 
 # No active loop, nothing to do
 if [[ ! -f "$STATE_FILE" ]]; then
@@ -30,7 +30,7 @@ if [[ "$COMPLETION_PROMISE" = "null" ]] || [[ -z "$COMPLETION_PROMISE" ]]; then
 fi
 
 # Extract response text from hook input
-RESPONSE_TEXT=$(echo "$HOOK_INPUT" | jq -r '.text // empty')
+RESPONSE_TEXT=$(echo "$HOOK_INPUT" | jq -r '.last_assistant_message // empty')
 
 if [[ -z "$RESPONSE_TEXT" ]]; then
   exit 0

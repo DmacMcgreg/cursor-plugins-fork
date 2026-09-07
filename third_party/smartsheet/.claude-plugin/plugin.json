@@ -1,0 +1,30 @@
+{
+  "name": "smartsheet",
+  "version": "1.0.2",
+  "description": "Query and update sheets, rows, and workspaces.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "smartsheet",
+    "sheets",
+    "project-management",
+    "work-management",
+    "rows",
+    "mcp"
+  ],
+  "displayName": "Smartsheet",
+  "userConfig": {
+    "smartsheet_api_token": {
+      "title": "Smartsheet API token",
+      "description": "API access token generated in Smartsheet under Account \u2192 Personal Settings \u2192 API Access.",
+      "type": "string",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

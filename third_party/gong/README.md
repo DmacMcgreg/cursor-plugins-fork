@@ -10,7 +10,7 @@ Pull account summaries, deal insights, and call briefs into chat.
 2. Search for **Gong**.
 3. Click **Install**, then set the client ID and secret (below) and complete the Gong sign-in prompt.
 
-Or run `/add-plugin gong` in chat.
+Or run `/plugin install gong@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

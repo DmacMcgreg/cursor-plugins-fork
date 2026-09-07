@@ -10,7 +10,7 @@ Search your Otter meeting history and pull full transcripts into the editor to s
 2. Search for **Otter.ai**.
 3. Click **Install**, then complete the Otter.ai sign-in prompt.
 
-Or run `/add-plugin otter` in chat.
+Or run `/plugin install otter@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

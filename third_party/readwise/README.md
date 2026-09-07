@@ -10,7 +10,7 @@ Search everything you have read — hybrid semantic and full-text search across 
 2. Search for **Readwise**.
 3. Click **Install**, then complete the Readwise sign-in prompt.
 
-Or run `/add-plugin readwise` in chat.
+Or run `/plugin install readwise@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

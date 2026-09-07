@@ -10,7 +10,7 @@ Search sequences, prospects, accounts, and Kaia meetings, then create sequences,
 2. Search for **Outreach**.
 3. Click **Install**, then complete the Outreach sign-in prompt.
 
-Or run `/add-plugin outreach` in chat.
+Or run `/plugin install outreach@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

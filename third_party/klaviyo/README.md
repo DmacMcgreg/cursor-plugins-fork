@@ -10,7 +10,7 @@ Build segments, draft campaigns and flows, look up profiles and events, and pull
 2. Search for **Klaviyo**.
 3. Click **Install**, then complete the Klaviyo sign-in prompt.
 
-Or run `/add-plugin klaviyo` in chat.
+Or run `/plugin install klaviyo@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

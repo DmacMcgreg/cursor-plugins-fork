@@ -10,7 +10,7 @@ Inspect workspace data, build and manage campaigns and one-time sends, work with
 2. Search for **Customer.io**.
 3. Click **Install**, then complete the Customer.io sign-in prompt.
 
-Or run `/add-plugin customer-io` in chat.
+Or run `/plugin install customer-io@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

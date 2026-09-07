@@ -1,0 +1,20 @@
+{
+  "name": "jotform",
+  "version": "1.0.2",
+  "description": "Create and edit forms, then read submissions.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.jotform.com/mcp/",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "jotform",
+    "forms",
+    "submissions",
+    "surveys",
+    "mcp"
+  ],
+  "displayName": "Jotform"
+}

@@ -4,8 +4,9 @@ Teaching workflows: skill mapping, practice plans, and feedback loops.
 
 ## Installation
 
-```bash
-/add-plugin teaching
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install teaching@cursor-plugins-fork
 ```
 
 ## Components

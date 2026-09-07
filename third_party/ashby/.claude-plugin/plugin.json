@@ -1,0 +1,22 @@
+{
+  "name": "ashby",
+  "version": "1.0.2",
+  "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.ashbyhq.com/ashby-mcp-server-beta",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "ashby",
+    "ats",
+    "recruiting",
+    "hiring",
+    "candidates",
+    "interviews",
+    "mcp"
+  ],
+  "displayName": "Ashby"
+}

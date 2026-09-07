@@ -10,7 +10,7 @@ Search Drive, read file metadata and contents, create or update files, and manag
 2. Search for **Google Drive**.
 3. Click **Install**, then complete the Google sign-in prompt.
 
-Or run `/add-plugin google-drive` in chat.
+Or run `/plugin install google-drive@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

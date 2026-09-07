@@ -10,7 +10,7 @@ Ask questions against a company's Guru knowledge base and connected sources, get
 2. Search for **Guru**.
 3. Click **Install**, then complete the Guru sign-in prompt.
 
-Or run `/add-plugin guru` in chat.
+Or run `/plugin install guru@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

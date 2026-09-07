@@ -10,7 +10,7 @@ Pull Similarweb digital-intelligence data — website traffic and engagement, co
 2. Search for **Similarweb**.
 3. Click **Install**, then set your Similarweb API key (below).
 
-Or run `/add-plugin similarweb` in chat.
+Or run `/plugin install similarweb@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -12,7 +12,7 @@ This is a separate plugin from the [X](../x/) plugin: the ads MCP server lives o
 2. Search for **X Ads**.
 3. Click **Install**, then complete the OAuth sign-in when prompted.
 
-Or run `/add-plugin x-ads` in chat.
+Or run `/plugin install x-ads@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

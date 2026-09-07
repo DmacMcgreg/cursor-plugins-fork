@@ -10,7 +10,7 @@ Search mail folders, read messages, send email, and look up contacts in the sign
 2. Search for **Outlook**.
 3. Click **Install**, then complete the Microsoft sign-in prompt.
 
-Or run `/add-plugin outlook` in chat.
+Or run `/plugin install outlook@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

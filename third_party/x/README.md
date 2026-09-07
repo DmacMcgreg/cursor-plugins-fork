@@ -10,7 +10,7 @@ This plugin signs you in with OAuth as your own X account. It is no longer read-
 2. Search for **X**.
 3. Click **Install**, then complete the OAuth sign-in when prompted.
 
-Or run `/add-plugin x` in chat.
+Or run `/plugin install x@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

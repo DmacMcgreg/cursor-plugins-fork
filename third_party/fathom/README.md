@@ -10,7 +10,7 @@ Bring Fathom meeting recordings, transcripts, and AI summaries into the editor t
 2. Search for **Fathom**.
 3. Click **Install**, then complete the Fathom sign-in prompt.
 
-Or run `/add-plugin fathom` in chat.
+Or run `/plugin install fathom@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

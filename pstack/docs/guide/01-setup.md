@@ -7,7 +7,7 @@ In this page you install the plugin, pick which models pstack uses, and run your
 In a Cursor chat, run:
 
 ```text
-/add-plugin pstack
+/plugin install pstack@cursor-plugins-fork  # after /plugin marketplace add DmacMcgreg/cursor-plugins-fork
 ```
 
 Cursor confirms the plugin is installed.

@@ -10,7 +10,7 @@ Answer questions about a Mercury business banking account — balances, transact
 2. Search for **Mercury**.
 3. Click **Install**, then complete the Mercury sign-in prompt.
 
-Or run `/add-plugin mercury` in chat.
+Or run `/plugin install mercury@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

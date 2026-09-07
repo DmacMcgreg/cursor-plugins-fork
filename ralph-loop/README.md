@@ -1,22 +1,27 @@
 # Ralph Loop
 
-Ralph Loop runs Cursor in a self-referential loop, feeding the same prompt back after every turn until the task is complete. It implements the [Ralph Wiggum technique](https://ghuntley.com/ralph/) pioneered by Geoffrey Huntley.
+Ralph Loop runs your coding agent in a self-referential loop, feeding the same prompt back after every turn until the task is complete. It implements the [Ralph Wiggum technique](https://ghuntley.com/ralph/) pioneered by Geoffrey Huntley.
 
 ## How it works
 
-Two hooks drive the loop. An `afterAgentResponse` hook watches each response for a `<promise>` tag matching the completion phrase. A `stop` hook fires when Cursor finishes a turn. If the promise hasn't been detected and the iteration limit hasn't been reached, the stop hook sends the original prompt back as a `followup_message`, starting the next iteration. Cursor sees its own previous edits in the working tree and git history, iterates on them, and repeats. The prompt never changes. The code does.
+Two hooks drive the loop. Both run on the agent's `Stop` event: `capture-response.sh` checks the agent's final message for a `<promise>` tag matching the completion phrase, and `stop-hook.sh` fires when the agent finishes a turn. If the promise hasn't been detected and the iteration limit hasn't been reached, the stop hook returns a `decision: block` continuation carrying the original prompt, starting the next iteration. The agent sees its own previous edits in the working tree and git history, iterates on them, and repeats. The prompt never changes. The code does.
+
+> Note for ZCode: the runtime allows at most three consecutive `Stop` continuations before it pauses for the user. A loop that does not reach its completion promise within three consecutive turns will stop and resume on your next message. `--max-iterations` still applies across those resumes.
 
 ## Installation
 
-```
-/add-plugin ralph-loop
+Install from this marketplace in ZCode (or Claude Code):
+
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install ralph-loop@cursor-plugins-fork
 ```
 
 ## Quick start
 
 > Start a ralph loop: "Build a REST API for todos. CRUD operations, input validation, tests. Output COMPLETE when done." --completion-promise "COMPLETE" --max-iterations 50
 
-Cursor will implement the API, run tests, see failures, fix them, and repeat until all requirements are met.
+The agent will implement the API, run tests, see failures, fix them, and repeat until all requirements are met.
 
 ## Skills
 
@@ -33,7 +38,7 @@ Cursor will implement the API, run tests, see failures, fix them, and repeat unt
 
 ## Writing good prompts
 
-Define explicit completion criteria. Vague goals like "make it good" give Cursor nothing to verify against.
+Define explicit completion criteria. Vague goals like "make it good" give the agent nothing to verify against.
 
 ```markdown
 Build a REST API for todos.

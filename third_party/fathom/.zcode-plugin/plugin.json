@@ -1,0 +1,21 @@
+{
+  "name": "fathom",
+  "version": "1.0.2",
+  "description": "Search meetings and pull transcripts and summaries.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.fathom.ai/mcp-docs",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "fathom",
+    "meetings",
+    "transcripts",
+    "summaries",
+    "notes",
+    "mcp"
+  ],
+  "displayName": "Fathom"
+}

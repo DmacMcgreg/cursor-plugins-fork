@@ -10,7 +10,7 @@ List calendars, search and inspect events, suggest times, and create, update, or
 2. Search for **Google Calendar**.
 3. Click **Install**, then complete the Google sign-in prompt.
 
-Or run `/add-plugin google-calendar` in chat.
+Or run `/plugin install google-calendar@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -4,17 +4,21 @@
 # When the agent finishes a turn, this hook decides whether to feed the
 # same prompt back for another iteration or let the session end.
 #
-# Cursor stop hook API:
-#   Input:  { "status": "completed"|"aborted"|"error", "loop_count": N, ...common }
-#   Output: { "followup_message": "<text>" }  to continue, or exit 0 with no output to stop
+# ZCode stop hook API:
+#   Input:  { "stop_hook_active": bool, "last_assistant_message": "...", ...common }
+#   Output: { "decision": "block", "reason": "<text>" }  to continue, or exit 0 with no output to stop
+#
+# Note: the ZCode runtime allows at most three consecutive Stop continuations,
+# so a loop whose prompt never completes will pause after three iterations and
+# continue when you send any message.
 
 set -euo pipefail
 
 HOOK_INPUT=$(cat)
 
-PROJECT_DIR="${CURSOR_PROJECT_DIR:-.}"
-STATE_FILE="$PROJECT_DIR/.cursor/ralph/scratchpad.md"
-DONE_FLAG="$PROJECT_DIR/.cursor/ralph/done"
+PROJECT_DIR="$(jq -r '.cwd // "."' <<< "$HOOK_INPUT")"
+STATE_FILE="$PROJECT_DIR/.zcode/ralph/scratchpad.md"
+DONE_FLAG="$PROJECT_DIR/.zcode/ralph/done"
 
 # No active loop. Let the session end.
 if [[ ! -f "$STATE_FILE" ]]; then
@@ -40,7 +44,7 @@ if [[ ! "$MAX_ITERATIONS" =~ ^[0-9]+$ ]]; then
   exit 0
 fi
 
-# Check if completion promise was detected by the afterAgentResponse hook
+# Check if completion promise was detected by the capture-response hook
 if [[ -f "$DONE_FLAG" ]]; then
   echo "Ralph loop: completion promise fulfilled at iteration $ITERATION." >&2
   rm -f "$STATE_FILE" "$DONE_FLAG"
@@ -80,7 +84,7 @@ FOLLOWUP="$HEADER
 
 $PROMPT_TEXT"
 
-# Output followup_message to continue the loop
-jq -n --arg msg "$FOLLOWUP" '{"followup_message": $msg}'
+# Output a block decision to continue the loop
+jq -n --arg msg "$FOLLOWUP" '{decision: "block", reason: $msg}'
 
 exit 0

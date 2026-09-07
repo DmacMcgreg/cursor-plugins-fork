@@ -14,8 +14,9 @@ fork it. improve it. make it yours. PRs are welcome!
 
 ## install
 
-```bash
-/add-plugin pstack
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install pstack@cursor-plugins-fork
 ```
 
 ## get started

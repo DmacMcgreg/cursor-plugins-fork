@@ -10,7 +10,7 @@ Search and read Coda docs, pages, and tables, and create or update pages and row
 2. Search for **Coda**.
 3. Click **Install**, then complete the Coda sign-in prompt.
 
-Or run `/add-plugin coda` in chat.
+Or run `/plugin install coda@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

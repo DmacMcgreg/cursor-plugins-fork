@@ -10,7 +10,7 @@ Query live Ahrefs SEO data — backlinks, keyword metrics, rank tracking, and si
 2. Search for **Ahrefs**.
 3. Click **Install**, then complete the Ahrefs sign-in prompt.
 
-Or run `/add-plugin ahrefs` in chat.
+Or run `/plugin install ahrefs@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

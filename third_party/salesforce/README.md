@@ -10,7 +10,7 @@ Run SOQL and SOSL, inspect object schemas, traverse relationships, and create, u
 2. Search for **Salesforce**.
 3. Click **Install**, then set the server URL and consumer key (below) and complete the Salesforce sign-in prompt.
 
-Or run `/add-plugin salesforce` in chat.
+Or run `/plugin install salesforce@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

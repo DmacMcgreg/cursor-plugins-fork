@@ -10,7 +10,7 @@ Search meetings and recordings, pull summaries and transcripts, and work with Zo
 2. Search for **Zoom**.
 3. Click **Install**, then set the client ID and secret (below) and complete the Zoom sign-in prompt.
 
-Or run `/add-plugin zoom` in chat.
+Or run `/plugin install zoom@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

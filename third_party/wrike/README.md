@@ -10,7 +10,7 @@ Search a Wrike workspace, navigate folder and project hierarchies, and create or
 2. Search for **Wrike**.
 3. Click **Install**, then set your Wrike permanent access token (below).
 
-Or run `/add-plugin wrike` in chat.
+Or run `/plugin install wrike@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

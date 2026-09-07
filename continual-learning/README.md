@@ -4,7 +4,7 @@ Automatically and incrementally keeps `AGENTS.md` up to date from transcript cha
 
 The plugin combines:
 
-- A `stop` hook that decides when to trigger learning.
+- A `Stop` hook that decides when to trigger learning.
 - A `continual-learning` skill that orchestrates the learning flow.
 - An `agents-memory-updater` subagent that mines new or changed transcripts and updates `AGENTS.md`.
 
@@ -16,23 +16,26 @@ It is designed to avoid noisy rewrites by:
 
 ## Installation
 
-```bash
-/add-plugin continual-learning
+Install from this marketplace in ZCode (or Claude Code):
+
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install continual-learning@cursor-plugins-fork
 ```
 
 ## How it works
 
-On eligible `stop` events, the hook may emit a `followup_message` that asks the agent to run the `continual-learning` skill.
+On eligible `Stop` events, the hook may return a `decision: block` continuation that asks the agent to run the `continual-learning` skill.
 
 The skill is marked `disable-model-invocation: true`, so it will not be auto-selected during normal model invocation. When it does run, it delegates the full memory update flow to `agents-memory-updater`.
 
 The hook keeps local runtime state in:
 
-- `.cursor/hooks/state/continual-learning.json` (cadence state)
+- `.zcode/hooks/state/continual-learning.json` (cadence state, relative to the workspace)
 
 The updater uses an incremental transcript index at:
 
-- `.cursor/hooks/state/continual-learning-index.json`
+- `.zcode/hooks/state/continual-learning-index.json`
 
 ## Trigger cadence
 

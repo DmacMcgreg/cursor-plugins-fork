@@ -1,11 +1,12 @@
 # Create plugin
 
-Meta workflows for creating Cursor plugins that are marketplace-ready.
+Meta workflows for creating ZCode / Claude Code plugins that are marketplace-ready.
 
 ## Installation
 
-```bash
-/add-plugin create-plugin
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install create-plugin@cursor-plugins-fork
 ```
 
 ## Components
@@ -17,10 +18,10 @@ Meta workflows for creating Cursor plugins that are marketplace-ready.
 | `create-plugin-scaffold` | Scaffold a new plugin directory with manifest, components, and repository wiring |
 | `review-plugin-submission` | Run a pre-submission quality check against marketplace expectations |
 
-### Rules
+### Skills (authoring guardrails)
 
-| Rule | Description |
-|:-----|:------------|
+| Skill | Description |
+|:------|:------------|
 | `plugin-quality-gates` | Keep plugin manifests, component metadata, and paths valid and consistent |
 
 ### Agents
@@ -38,7 +39,7 @@ Meta workflows for creating Cursor plugins that are marketplace-ready.
 ## Typical flow
 
 1. Use `/create-plugin` with a plugin name, purpose, and target component types.
-2. Generate or update `plugin.json`, then add rules/skills/agents/commands as needed.
+2. Generate or update `.zcode-plugin/plugin.json` (and its `.claude-plugin` mirror), then add skills/agents/commands/hooks as needed.
 3. Run `review-plugin-submission` before publishing or marketplace submission.
 
 ## License

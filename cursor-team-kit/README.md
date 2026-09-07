@@ -1,11 +1,12 @@
-# Cursor Team Kit plugin
+# Cursor Team Kit
 
 Internal-style workflows for CI, code review, shipping, and test reliability. The kit is designed to be plug and play without requiring third-party service integrations.
 
 ## Installation
 
-```bash
-/add-plugin cursor-team-kit
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install cursor-team-kit@cursor-plugins-fork
 ```
 
 ## Components
@@ -40,10 +41,10 @@ Internal-style workflows for CI, code review, shipping, and test reliability. Th
 | `ci-watcher` | Monitor GitHub Actions runs and return concise pass/fail summaries |
 | `thermo-nuclear-code-quality-review` | Task subagent that runs the thermo-nuclear code quality rubric against a diff |
 
-### Rules
+### Coding-guardrail skills
 
-| Rule | Description |
-|:-----|:------------|
+| Skill | Description |
+|:------|:------------|
 | `typescript-exhaustive-switch` | Require exhaustive switch handling for unions/enums |
 | `no-inline-imports` | Keep imports at module top-level for readability and consistency |
 

@@ -1,0 +1,22 @@
+{
+  "name": "navan",
+  "version": "1.0.2",
+  "description": "Query expenses, travel bookings, policies, and cards.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.navan.com/mcp/",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "navan",
+    "mcp",
+    "travel",
+    "expenses",
+    "spend",
+    "corporate-cards",
+    "bookings"
+  ],
+  "displayName": "Navan"
+}

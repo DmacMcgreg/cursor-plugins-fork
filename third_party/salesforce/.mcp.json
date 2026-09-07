@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "salesforce": {
+      "type": "http",
+      "url": "${user_config.salesforce_mcp_url}"
+    }
+  }
+}

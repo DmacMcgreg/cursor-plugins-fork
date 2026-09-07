@@ -10,7 +10,7 @@ Create and edit forms, explore response insights, and manage contacts and worksp
 2. Search for **Typeform**.
 3. Click **Install**, then complete the Typeform sign-in prompt.
 
-Or run `/add-plugin typeform` in chat.
+Or run `/plugin install typeform@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

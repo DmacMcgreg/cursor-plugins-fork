@@ -1,0 +1,21 @@
+{
+  "name": "docusign",
+  "version": "1.0.2",
+  "description": "Manage envelopes, templates, workflows, and agreements.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.docusign.com/platform/mcp-server/",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "docusign",
+    "esignature",
+    "agreements",
+    "mcp",
+    "envelopes",
+    "contracts"
+  ],
+  "displayName": "Docusign"
+}

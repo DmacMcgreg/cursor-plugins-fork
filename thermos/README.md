@@ -1,11 +1,12 @@
 # Thermos plugin
 
-Thermo-nuclear branch review for Cursor agents: deep correctness and security audits, harsh maintainability rubrics, and parallel subagent orchestration.
+Thermo-nuclear branch review for coding agents: deep correctness and security audits, harsh maintainability rubrics, and parallel subagent orchestration.
 
 ## Installation
 
-```bash
-/add-plugin thermos
+```text
+/plugin marketplace add DmacMcgreg/cursor-plugins-fork
+/plugin install thermos@cursor-plugins-fork
 ```
 
 ## Architecture

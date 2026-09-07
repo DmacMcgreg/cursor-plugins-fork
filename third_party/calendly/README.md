@@ -10,7 +10,7 @@ Check and update availability, generate scheduling links, and book, cancel, or r
 2. Search for **Calendly**.
 3. Click **Install**, then complete the Calendly sign-in prompt.
 
-Or run `/add-plugin calendly` in chat.
+Or run `/plugin install calendly@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

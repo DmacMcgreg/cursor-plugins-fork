@@ -10,7 +10,7 @@ Capture, search, and organize notes and collections in Mem using semantic search
 2. Search for **Mem**.
 3. Click **Install**, then complete the Mem sign-in prompt.
 
-Or run `/add-plugin mem` in chat.
+Or run `/plugin install mem@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

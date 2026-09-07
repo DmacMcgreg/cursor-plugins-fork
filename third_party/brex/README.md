@@ -10,7 +10,7 @@ Query company spend — expenses, receipts, bills, vendors, cards, balances, and
 2. Search for **Brex**.
 3. Click **Install**, then complete the Brex sign-in prompt.
 
-Or run `/add-plugin brex` in chat.
+Or run `/plugin install brex@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

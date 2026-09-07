@@ -1,15 +1,22 @@
 {
-  "version": 1,
+  "description": "Ralph Loop hooks: watch each stop for the completion promise, then either feed the same prompt back for another iteration or let the session end.",
   "hooks": {
-    "afterAgentResponse": [
+    "Stop": [
       {
-        "command": "./hooks/capture-response.sh"
-      }
-    ],
-    "stop": [
-      {
-        "command": "./hooks/stop-hook.sh",
-        "loop_limit": null
+        "hooks": [
+          {
+            "type": "process",
+            "command": "bash",
+            "args": ["${ZCODE_PLUGIN_ROOT}/hooks/capture-response.sh"],
+            "timeoutMs": 5000
+          },
+          {
+            "type": "process",
+            "command": "bash",
+            "args": ["${ZCODE_PLUGIN_ROOT}/hooks/stop-hook.sh"],
+            "timeoutMs": 5000
+          }
+        ]
       }
     ]
   }

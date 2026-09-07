@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "version": "1.0.2",
+  "description": "Navigate, click, screenshot, and test in a real browser.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/microsoft/playwright-mcp",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "playwright",
+    "browser",
+    "automation",
+    "testing",
+    "e2e",
+    "mcp"
+  ],
+  "displayName": "Playwright"
+}

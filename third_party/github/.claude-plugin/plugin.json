@@ -1,0 +1,31 @@
+{
+  "name": "github",
+  "version": "1.0.2",
+  "description": "Manage repos, issues, pull requests, and Actions.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.github.com/en/copilot/how-tos/context/use-mcp/use-the-github-mcp-server",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "git",
+    "repositories",
+    "pull-requests",
+    "issues",
+    "actions",
+    "mcp"
+  ],
+  "displayName": "GitHub",
+  "userConfig": {
+    "github_personal_access_token": {
+      "title": "GitHub personal access token",
+      "description": "Fine-grained or classic PAT from https://github.com/settings/tokens with the repo scopes you want the agent to use.",
+      "type": "string",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

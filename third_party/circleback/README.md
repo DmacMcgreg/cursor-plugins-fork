@@ -10,7 +10,7 @@ Search meetings, transcripts, action items, calendar events, and emails, and loo
 2. Search for **Circleback**.
 3. Click **Install**, then complete the Circleback sign-in prompt.
 
-Or run `/add-plugin circleback` in chat.
+Or run `/plugin install circleback@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

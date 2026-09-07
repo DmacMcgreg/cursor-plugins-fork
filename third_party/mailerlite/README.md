@@ -10,7 +10,7 @@ Add and update subscribers, organize groups and segments, build and inspect camp
 2. Search for **MailerLite**.
 3. Click **Install**, then complete the MailerLite sign-in prompt.
 
-Or run `/add-plugin mailerlite` in chat.
+Or run `/plugin install mailerlite@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

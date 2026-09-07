@@ -18,7 +18,7 @@ Use from `continual-learning` when transcript deltas may produce durable memory 
    - `## Learned User Preferences`
    - `## Learned Workspace Facts`
 2. Load the incremental index if present.
-3. Inspect only transcript files under `~/.cursor/projects/<workspace-slug>/agent-transcripts/` that are new or have newer mtimes than the index.
+3. Inspect only the workspace's transcript JSONL files that are new or have newer mtimes than the index. The current session's transcript path is provided by the hook (`transcript_path`); sibling session transcripts live in the same area of the client home directory (for ZCode, under `~/.zcode/`).
 4. Pull out only durable, reusable items:
    - recurring user preferences or corrections
    - stable workspace facts
@@ -43,5 +43,5 @@ Use from `continual-learning` when transcript deltas may produce durable memory 
 
 ## Output
 
-- Updated `AGENTS.md` and `.cursor/hooks/state/continual-learning-index.json` when needed
+- Updated `AGENTS.md` and `.zcode/hooks/state/continual-learning-index.json` when needed
 - Otherwise exactly `No high-signal memory updates.`

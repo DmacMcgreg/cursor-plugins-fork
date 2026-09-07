@@ -10,7 +10,7 @@ Manage contacts and lists, build email, SMS, and WhatsApp campaigns, and work wi
 2. Search for **Brevo**.
 3. Click **Install**, then set your Brevo MCP token (below).
 
-Or run `/add-plugin brevo` in chat.
+Or run `/plugin install brevo@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

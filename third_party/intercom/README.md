@@ -10,7 +10,7 @@ Search conversations and contacts, look up companies, and list, search, create, 
 2. Search for **Intercom**.
 3. Click **Install**, then complete the Intercom sign-in prompt.
 
-Or run `/add-plugin intercom` in chat.
+Or run `/plugin install intercom@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

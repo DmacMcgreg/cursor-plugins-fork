@@ -10,7 +10,7 @@ Search and retrieve Fireflies meeting transcripts, summaries, action items, and 
 2. Search for **Fireflies**.
 3. Click **Install**, then complete the Fireflies sign-in prompt.
 
-Or run `/add-plugin fireflies` in chat.
+Or run `/plugin install fireflies@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

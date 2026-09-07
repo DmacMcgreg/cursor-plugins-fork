@@ -10,7 +10,7 @@ Pull Semrush keyword, backlink, traffic, and competitive-intelligence data into 
 2. Search for **Semrush**.
 3. Click **Install**, then complete the Semrush sign-in prompt.
 
-Or run `/add-plugin semrush` in chat.
+Or run `/plugin install semrush@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

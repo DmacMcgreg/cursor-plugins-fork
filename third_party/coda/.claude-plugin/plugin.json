@@ -1,0 +1,21 @@
+{
+  "name": "coda",
+  "version": "1.0.2",
+  "description": "Search docs, read pages, and update tables.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://help.superhuman.com/hc/en-us/articles/46210076980365-Connect-to-the-Coda-MCP",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "coda",
+    "superhuman",
+    "docs",
+    "tables",
+    "knowledge",
+    "mcp"
+  ],
+  "displayName": "Coda"
+}

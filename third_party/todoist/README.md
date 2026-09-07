@@ -10,7 +10,7 @@ Create, find, update, and complete tasks, and manage projects, sections, labels,
 2. Search for **Todoist**.
 3. Click **Install**, then complete the Todoist sign-in prompt.
 
-Or run `/add-plugin todoist` in chat.
+Or run `/plugin install todoist@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -10,7 +10,7 @@ Retrieve AI visibility, sentiment, and citation reports, access agent analytics,
 2. Search for **Profound**.
 3. Click **Install**, then complete the Profound sign-in prompt.
 
-Or run `/add-plugin profound` in chat.
+Or run `/plugin install profound@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

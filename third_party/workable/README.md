@@ -10,7 +10,7 @@ Search and advance candidates, manage jobs, offers, and requisitions, and work w
 2. Search for **Workable**.
 3. Click **Install**, then complete the Workable sign-in prompt.
 
-Or run `/add-plugin workable` in chat.
+Or run `/plugin install workable@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -10,7 +10,7 @@ List and create forms, edit existing ones, submit to them, and read submissions 
 2. Search for **Jotform**.
 3. Click **Install**, then complete the Jotform sign-in prompt.
 
-Or run `/add-plugin jotform` in chat.
+Or run `/plugin install jotform@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

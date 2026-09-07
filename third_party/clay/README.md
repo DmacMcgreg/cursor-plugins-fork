@@ -10,7 +10,7 @@ Find and enrich people and companies across 150+ data providers, run AI research
 2. Search for **Clay**.
 3. Click **Install**, then complete the Clay sign-in prompt.
 
-Or run `/add-plugin clay` in chat.
+Or run `/plugin install clay@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

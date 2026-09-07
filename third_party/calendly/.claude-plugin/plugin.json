@@ -1,0 +1,21 @@
+{
+  "name": "calendly",
+  "version": "1.0.2",
+  "description": "Check availability and book, cancel, or reschedule.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.calendly.com/calendly-mcp-server",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "calendly",
+    "scheduling",
+    "calendar",
+    "meetings",
+    "availability",
+    "mcp"
+  ],
+  "displayName": "Calendly"
+}

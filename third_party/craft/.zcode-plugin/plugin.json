@@ -1,0 +1,21 @@
+{
+  "name": "craft",
+  "version": "1.0.2",
+  "description": "Search, create, and update documents and daily notes.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.craft.do/imagine/guide/mcp",
+  "repository": "https://github.com/DmacMcgreg/cursor-plugins-fork",
+  "license": "MIT",
+  "keywords": [
+    "craft",
+    "craft.do",
+    "notes",
+    "documents",
+    "writing",
+    "mcp"
+  ],
+  "displayName": "Craft"
+}

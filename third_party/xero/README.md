@@ -10,7 +10,7 @@ Read and write a Xero organisation's accounting and payroll data — invoices, c
 2. Search for **Xero**.
 3. Click **Install**, then set the Xero client ID and client secret (below).
 
-Or run `/add-plugin xero` in chat.
+Or run `/plugin install xero@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

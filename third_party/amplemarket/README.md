@@ -10,7 +10,7 @@ Search people and companies, enrich contacts, manage lead lists and sequences, a
 2. Search for **Amplemarket**.
 3. Click **Install**, then complete the Amplemarket sign-in prompt.
 
-Or run `/add-plugin amplemarket` in chat.
+Or run `/plugin install amplemarket@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -10,7 +10,7 @@ Search and shortlist talent, post and edit jobs, handle invitations and proposal
 2. Search for **Upwork**.
 3. Click **Install**, then complete the Upwork sign-in prompt.
 
-Or run `/add-plugin upwork` in chat.
+Or run `/plugin install upwork@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

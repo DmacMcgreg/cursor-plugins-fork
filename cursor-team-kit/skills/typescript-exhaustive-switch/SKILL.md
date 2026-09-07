@@ -1,0 +1,8 @@
+---
+name: typescript-exhaustive-switch
+description: Use exhaustive switch handling for TypeScript unions and enums, with a never check in the default case. Use when writing or reviewing TypeScript switch statements.
+---
+
+# TypeScript exhaustive switch
+
+In switch statements over discriminated unions or enums, use a `never` check in the default case so newly added variants cause compile-time failures until handled.

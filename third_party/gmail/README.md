@@ -10,7 +10,7 @@ Search threads, read messages, manage labels and drafts, and compose mail in the
 2. Search for **Gmail**.
 3. Click **Install**, then complete the Google sign-in prompt.
 
-Or run `/add-plugin gmail` in chat.
+Or run `/plugin install gmail@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

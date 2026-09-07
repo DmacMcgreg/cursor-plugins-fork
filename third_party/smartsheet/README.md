@@ -10,7 +10,7 @@ Find sheets, read and update rows and columns, and work with discussions and wor
 2. Search for **Smartsheet**.
 3. Click **Install**, then set your Smartsheet API token (below).
 
-Or run `/add-plugin smartsheet` in chat.
+Or run `/plugin install smartsheet@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

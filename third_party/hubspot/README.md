@@ -12,7 +12,7 @@ This is HubSpot's remote CRM MCP server — not the [developer MCP server](https
 2. Search for **HubSpot**.
 3. Click **Install**, then set the client ID and secret (below) and complete the HubSpot sign-in prompt.
 
-Or run `/add-plugin hubspot` in chat.
+Or run `/plugin install hubspot@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

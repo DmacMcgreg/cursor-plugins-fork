@@ -10,7 +10,7 @@ Query recruiting analytics, search project shortlists, look up projects, and cre
 2. Search for **Juicebox**.
 3. Click **Install**, then complete the Juicebox sign-in prompt.
 
-Or run `/add-plugin juicebox` in chat.
+Or run `/plugin install juicebox@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

@@ -10,7 +10,7 @@ Navigate pages, click and fill elements, take accessibility snapshots and screen
 2. Search for **Playwright**.
 3. Click **Install**.
 
-Or run `/add-plugin playwright` in chat.
+Or run `/plugin install playwright@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## Requirements
 

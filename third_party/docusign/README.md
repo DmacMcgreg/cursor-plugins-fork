@@ -10,7 +10,7 @@ Work with eSignature envelopes and templates, Maestro workflows, and Navigator a
 2. Search for **Docusign**.
 3. Click **Install**, then set the Integration Key and Secret Key (below) and complete the Docusign sign-in prompt.
 
-Or run `/add-plugin docusign` in chat.
+Or run `/plugin install docusign@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

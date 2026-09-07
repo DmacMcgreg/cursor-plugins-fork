@@ -80,8 +80,4 @@ The scanner is heuristic. It scores repo signals and surfaces likely friction, b
 
 ## Local install
 
-If you want to use this plugin directly, symlink this directory into:
-
-```bash
-~/.cursor/plugins/local/agent-compatibility
-```
+If you want to use this plugin directly, add this repository (or the plugin's parent directory) as a local marketplace in your client — ZCode: Settings → Plugin management → Discover — then install `agent-compatibility`.

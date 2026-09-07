@@ -10,7 +10,7 @@ List upcoming events, check schedules, and create, update, or cancel meetings in
 2. Search for **Outlook Calendar**.
 3. Click **Install**, then complete the Microsoft sign-in prompt.
 
-Or run `/add-plugin outlook-calendar` in chat.
+Or run `/plugin install outlook-calendar@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

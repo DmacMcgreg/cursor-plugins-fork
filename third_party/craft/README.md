@@ -10,7 +10,7 @@ Search, read, create, and update documents, daily notes, tasks, and collections 
 2. Search for **Craft**.
 3. Click **Install**, then complete the Craft sign-in prompt.
 
-Or run `/add-plugin craft` in chat.
+Or run `/plugin install craft@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 

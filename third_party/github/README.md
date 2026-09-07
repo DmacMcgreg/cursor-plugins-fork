@@ -10,7 +10,7 @@ Work with repositories, issues, pull requests, code search, and Actions under th
 2. Search for **GitHub**.
 3. Click **Install**, then set your GitHub personal access token (below).
 
-Or run `/add-plugin github` in chat.
+Or run `/plugin install github@cursor-plugins-fork` (after adding the marketplace: `/plugin marketplace add DmacMcgreg/cursor-plugins-fork`).
 
 ## MCP
 
